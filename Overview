@@ -1,0 +1,25 @@
+Overview of the Competition:
+Theme : Baseball
+
+1. App in Action : Provide Demo
+2. Key functionality of project should be highlighted
+3. Highlight tech : Gemini API(generative AI), vertex AI(predictive modelling) and Imagen (text-image generative AI)
+4. Get creative in video (idk)
+5. Keep the video clean (obvious)
+
+What we are accessing : 
+1. MLB datasets fans' data 
+2. video highlights, closed captions
+3. MLB stats API
+
+What to build : 
+1. Personalized fan highlights (eg : fans can make clips of any player or team and can)
+2. Real-time "tool tips" (app explaining tactics and decisions in real-time )
+3. Generate Stat cast Data from Old Videos (tool shows in-game metrics : ball speed,bat swing and more for the old game videos)
+4. Prospect Predication (platform that uses data on players to predict their future potential)
+5. Fan engagement project (maybe something new or can include all the above features) - idk id its possible in low time
+
+
+How to Submit : 
+1. Upload Video on Youtube or Vimeo (video length < 3min)
+2. Share on social media (#GoogleMLBhackathon and #BuildwithGemini)
