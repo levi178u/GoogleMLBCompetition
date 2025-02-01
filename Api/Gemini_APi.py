@@ -7,7 +7,6 @@ async def get_mlb_data(api_key: str) -> List[str]:
     """
     Uses Gemini API to get MLB season data and returns it as paragraphs.
     """
-    # Configure the Gemini API
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')
     
@@ -53,7 +52,6 @@ Analyze the following baseball play data and extract both play information and p
     Format the response in clear, separate paragraphs.
     """
     
-    # Make the API call
     response = await asyncio.to_thread(
         lambda: model.generate_content(prompt).text
     )
@@ -64,14 +62,13 @@ Analyze the following baseball play data and extract both play information and p
 
 async def main():
     try:
-        # Replace with your actual Gemini API key
+        #  Gemini API key
         API_KEY = "AIzaSyAxGi7f2FomvRrSOdYAgOVUfcs8knjFT9w"
         
-        # Get MLB data from Gemini
         paragraphs = await get_mlb_data(API_KEY)
         
-        # Write to CSV
-        with open("xyz.csv", mode='w', newline='', encoding='utf-8') as file:
+        #  to CSV
+        with open("MLB.csv", mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(["Paragraph Number", "Content"])
             
