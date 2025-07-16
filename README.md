@@ -1,4 +1,6 @@
 # MLB x Google Cloud Hackathon
+
+Submission link: https://devpost.com/software/metricbase
 ## 1. Problem Understanding and Planning
 Objective: Extract fundamental Statcast metrics (e.g., pitch speed, exit velocity) from archival baseball game videos using computer vision and AI.
 Deliverables: Hosted project URL, project description, open-source code repository, and insights.
